@@ -1,0 +1,7 @@
+<h1>Página de Inicio de Los Cuerudos App</h1>
+<% if user_signed_in? %>
+<p>Aplicación Web "Los Cuerudos"</p>
+<% else %>
+<p>Aplicación Web para el control de productos y clientes del vivero "Los Cuerudos"</p>
+<% end %>
+
